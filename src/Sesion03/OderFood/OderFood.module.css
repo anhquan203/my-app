@@ -1,0 +1,111 @@
+.container {
+  width: 375px;
+  height: 812px;
+  border-radius: 24px;
+  background: #fff;
+  box-sizing: border-box;
+}
+.containerHeader {
+  width: 375px;
+  height: 437px;
+  flex-shrink: 0;
+  fill: rgba(255, 92, 1, 0.2);
+  position: relative;
+}
+.iconHeader {
+  display: flex;
+  width: 190px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-shrink: 0;
+}
+.textTillte {
+  color: var(--111-a-2-c, #111a2c);
+  text-align: center;
+  font-family: SVN-Gilroy;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 133.333% */
+}
+.textBlur {
+  color: var(--525-c-67, #525c67);
+  text-align: center;
+  font-family: SVN-Gilroy;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  opacity: 0.8;
+}
+.containerTab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 70px;
+  height: 8px;
+  flex-shrink: 0;
+  margin-top: 40px;
+}
+.containerFoodter {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: space-between;
+}
+.containerSkip {
+  color: var(--757-d-85, #757d85);
+  text-align: center;
+  display: flex;
+  font-family: SVN-Gilroy;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.buttonNext {
+  border-radius: 4px;
+  border: none;
+  width: 168px;
+  height: 56px;
+  flex-shrink: 0;
+  color: var(--ffffff, #fff);
+  text-align: center;
+  font-family: SVN-Gilroy;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  background-color: chocolate;
+}
+.imgFood {
+  display: flex;
+  width: 241.584px;
+  padding-bottom: 0px;
+  flex-direction: column;
+  align-items: center;
+}
+/* Trong file CSS hoặc module CSS của bạn */
+.imgOverlay {
+  top: 0;
+  left: 0;
+  z-index: 1; /* Đặt z-index cao để đảm bảo rằng hình ảnh nằm trên SVG */
+  opacity: 1; /* Đặt độ ẩn, 1 là hoàn toàn hiển thị, 0 là hoàn toàn ẩn */
+}
+
+.bgrImg {
+  position: absolute;
+}
+.containerCircle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 375px;
+  height: 0;
+  border-radius: 24px;
+  background: #fff;
+  position: absolute;
+}

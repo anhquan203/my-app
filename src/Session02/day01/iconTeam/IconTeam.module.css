@@ -1,0 +1,79 @@
+.container {
+  display: flex;
+  width: 330px;
+  padding: 24px;
+  margin: 20px;
+  border-radius: 10px;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+}
+.containerHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+.containerAvatar {
+  height: 56px;
+  width: 56px;
+}
+.avatar {
+  width: 56px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: lightgray 50% / cover no-repeat;
+}
+
+.icon {
+  color: blue;
+  padding-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 50px;
+}
+.textName {
+  height: 100%;
+  display: flex;
+  width: auto;
+  flex-direction: row;
+  text-align: center;
+  color: #000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  /* line-height: 13px; 127.778% */
+  letter-spacing: 0.1px;
+}
+.textItem {
+  color: #000;
+  font-family: Roboto;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  /* 135.294% */
+  letter-spacing: 0.5px;
+}
+.text {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 3px;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+.textNumber {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+}
+.iconRight {
+  margin-left: auto;
+  flex-direction: row;
+}
